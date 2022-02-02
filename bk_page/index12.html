@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Nuea's Portfolio</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the header */
+header {
+  background-color: #bb437b;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+
+/* Create two columns/boxes that floats next to each other */
+nav {
+  float: left;
+  width: 20%;
+  height: 100%; /* only for demonstration, should be removed */
+  background: #ccc;
+  padding: 20px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+article {
+  float: left;
+  padding: 20px;
+  width: 80%;
+  background-color: #f1f1f1;
+  height: 100%; /* only for demonstration, should be removed */
+}
+
+/* Clear floats after the columns */
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the footer */
+footer {
+  background-color: #777777;
+  padding: 10px;
+  text-align: center;
+  color: #f7f8f6;
+}
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+</style>
+</head>
+<body>
+    <header>
+        Pimmada Tongtham
+    </header>
+    <section>
+        <nav>
+            <a href="index12.html">Portfolio</a><br>
+            <a href="index1.html" target="_blank">Old Portfolio</a><br>
+            <a href="index2.html" target="_blank">My favourite Pet</a><br>
+            <a href="tableschool.html" target="_blank">table</a>
+        </nav>
+        <article align="center">
+        <img src="D:\webpage\images\aboutme.jpg" width="300px" height="400px">
+        <h1 style="color: #190283;">เด็กหญิงพิมพ์มาดา ทองแถม</h1>
+        <h2 style="color: #2d0353;">รายวิชาที่ชอบ</h2>
+        <h3 style="color: cornflowerblue;">ค20202 คณิตศาสตร์เพิ่มเติม</h3>
+        <h3 style="color: cornflowerblue;">ว21103  เทคโนโลยีและวิทยาการคำนวณ</h3>
+        <h3 style="color: cornflowerblue;">ส21106 พระพุทธ</h3>
+        <h2 style="color: #2d0353;">ข้อมูลติดต่อ</h2>
+        <h3 style="color: cornflowerblue;">มือถือ : 0980784580</h3>
+        <h3 style="color: cornflowerblue;">อีเมล : pimmada.ton@pccpl.ac.th</h3>
+        <h2 style="color: #2d0353;">ที่อยู่</h2>
+        <h3 style="color: cornflowerblue;">189/44 ม.3 ต.ท่าเสา</h3>
+        <h3 style="color: cornflowerblue;">อ.เมือง จ.อุตรดิตถ์ 53000</h3>
+        </article>
+    </section>
+    <footer>
+        189/44 Muang-uttaradit, Uttaradit
+    </footer>
+
+</body>
+</html>
